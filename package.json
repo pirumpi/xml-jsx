@@ -1,0 +1,14 @@
+{
+  "name": "@pirumpi/xml-jsx",
+  "version": "1.0.1",
+  "description": "better tools to handle xml parsing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "xml-js": "^1.6.11"
+  },
+  "author": "Carlos Martin",
+  "license": "ISC"
+}
