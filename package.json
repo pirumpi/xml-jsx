@@ -1,11 +1,12 @@
 {
   "name": "@pirumpi/xml-jsx",
-  "version": "1.0.1",
+  "version": "1.0.11",
   "description": "better tools to handle xml parsing",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": "https://github.com/pirumpi/xml-jsx",
   "dependencies": {
     "xml-js": "^1.6.11"
   },
