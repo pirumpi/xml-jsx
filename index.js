@@ -11,6 +11,14 @@ const xmlGetter = (obj, arr = null) => {
             if (obj[item]['_text']) {
                 result[fixCase(item)] = obj[item]['_text'];
             }
+            if (Array.isArray(obj[item]) && obj[item].length) {
+                result[fixCase(item)] = [];
+                obj[item].forEach(e => {
+                    if (e['_text']) {
+                        result[fixCase(item)].push(e['_text'])
+                    }
+                })
+            }
         }
 
         if (isObject(arr)) {
